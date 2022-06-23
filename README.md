@@ -6,8 +6,7 @@ A mini blog project that utilizes NextJS and React
 
 ## Running locally
 
-bash
-```
+```bash
 $ npm install
 $ npm run dev
 ```
