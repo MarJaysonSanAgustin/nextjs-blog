@@ -1,1 +1,3 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+# NextJS Blog
+
+A mini blog project that utilizes NextJS and React
