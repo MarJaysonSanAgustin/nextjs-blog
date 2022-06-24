@@ -4,6 +4,8 @@ A mini blog project that utilizes NextJS and React
 
 ## Demo Link
 
+https://nextjs-blog-gamma-snowy-39.vercel.app/
+
 ## Running locally
 
 ```bash
@@ -12,8 +14,6 @@ $ npm run dev
 ```
 
 Open http://localhost:3000/
-
-https://nextjs-blog-gamma-snowy-39.vercel.app/
 
 ## Screenshots
 
