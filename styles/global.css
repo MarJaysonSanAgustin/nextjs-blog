@@ -25,3 +25,28 @@ img {
   max-width: 100%;
   display: block;
 }
+
+pre {
+  background: #444;
+  padding: 2rem;
+  color: #fff;
+  border-radius: 0.4rem;
+  overflow-y: scroll;
+}
+
+pre::-webkit-scrollbar {
+  width: 0;
+  height: 7px;
+}
+
+pre::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+pre::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+pre::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
