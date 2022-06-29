@@ -4,7 +4,7 @@ import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
-const name = 'Mar Jayson';
+const name = 'Mar Jayson San Agustin';
 export const siteTitle = 'Blog | Mar Jayson';
 
 export default function Layout({ children, home }) {
@@ -32,11 +32,12 @@ export default function Layout({ children, home }) {
               priority
               src="/images/profile.jpg"
               className={utilStyles.borderCircle}
-              height={144}
-              width={144}
+              height={90}
+              width={90}
               alt={name}
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <p className={utilStyles.headingSm}>Software Developer</p>
           </>
         ) : (
           <>
@@ -46,8 +47,8 @@ export default function Layout({ children, home }) {
                   priority
                   src="/images/profile.jpg"
                   className={utilStyles.borderCircle}
-                  height={108}
-                  width={108}
+                  height={70}
+                  width={70}
                   alt={name}
                 />
               </a>
@@ -57,6 +58,7 @@ export default function Layout({ children, home }) {
                 <a className={utilStyles.colorInherit}>{name}</a>
               </Link>
             </h2>
+            <p className={utilStyles.headingSm}>Software Developer</p>
           </>
         )}
       </header>
